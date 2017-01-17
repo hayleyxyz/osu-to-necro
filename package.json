@@ -1,0 +1,16 @@
+{
+  "name": "osu-to-necro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "argparse": "^1.0.9",
+    "osu-parser": "^0.3.3"
+  }
+}
