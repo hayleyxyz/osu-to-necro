@@ -73,7 +73,7 @@ args.input.forEach(input => {
                     console.error('Audio file is not MP3: ' + beatmap.AudioFilename);
                     return;
                 }
-                
+
                 var audioFile = null;
 
                 zipFiles.forEach(e => {
@@ -106,6 +106,6 @@ function generateNecro(beatmap, audioData) {
         timings += '\n';
     });
 
-    fs.writeFileSync(args.output + '/' + outputName + '.txt', timings);
+    fs.writeFileSync(args.output + '/' + outputName + '.mp3.txt', timings);
     fs.writeFileSync(args.output + '/' + outputName + '.mp3', audioData);
 }
